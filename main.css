@@ -1,0 +1,19 @@
+
+img{
+    width: 100px;
+}
+
+.etelek div{
+    text-align: center;
+    border: 2px solid green;
+      
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
