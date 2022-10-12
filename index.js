@@ -82,6 +82,8 @@ document.getElementById('viz').addEventListener('click', ()=>{
 })
 
 document.getElementById('reset').addEventListener('click', ()=>{
+    osszKaloria = 0;
+
     document.getElementById('lista').textContent = "";
     document.getElementById('kaloria').textContent = 0 + " kaloria";
 })
