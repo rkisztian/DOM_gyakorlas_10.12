@@ -6,6 +6,9 @@ class Etel {
 }
 
 
+
+
+
 let Etelek = [];
 
 let osszKaloria = 0;
@@ -89,3 +92,8 @@ document.getElementById('reset').addEventListener('click', ()=>{
 })
 
 
+document.getElementById('statisztika').addEventListener('click', ()=>{
+    if(etelKaloria < 200){
+        Etelek.push(Etel);
+    }
+})
